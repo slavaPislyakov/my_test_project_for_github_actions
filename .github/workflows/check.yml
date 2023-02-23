@@ -9,4 +9,4 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Execute file
-        run: ts-node test.ts
+        run: npm run run:test
